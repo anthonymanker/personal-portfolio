@@ -1,0 +1,127 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.inverse-hr {
+  border-color: #ddd;
+}
+
+#about-socials > li > .btn {
+  border-radius:0;
+  border:1px solid #fff;
+  display:inline-block;
+  float: none;
+  margin:0 auto;
+  background: transparent;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.page-scroll {
+  color: #015249 !important;
+}
+
+.page-scroll:hover {
+  color: #57BC90 !important;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    background: #77C9D4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #77C9D4, #57BC90); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #77C9D4, #57BC90); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #77C9D4, #57BC90); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #77C9D4, #57BC90); /* Standard syntax */
+}
+
+#aboutHeader {
+  padding-top: 50px;
+}
+
+#aboutHeader h1 {
+  color: #fff;
+}
+
+#aboutHeader p {
+  color: #fff;
+}
+
+#headshot {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.portfolio-section {
+  padding-top: 150px;
+  padding-bottom: 0px;
+  text-align: center;
+  background: #fff;
+}
+
+.portfolio-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolio-pic {
+  width: 572px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+#contact-form {
+    padding-top: 50px;
+}
+
+.footer-section {
+    height: 50%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+#footer-socials > li > .btn {
+  border-radius:0;
+  border:1px solid #000;
+  display:inline-block;
+  float: none;
+  margin:0 auto;
+  background: transparent;
+  color: #000;
+}
+
+.copyright-section {
+    height: 10%;
+    padding-top: 15px;
+    text-align: center;
+    background: #fff;
+}
